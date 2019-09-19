@@ -1,0 +1,36 @@
+html {
+  font-size: 8px;
+  background-color:#ddd3e8;
+
+}
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.key {
+  border: 3px solid #412461;
+  border-radius: 20%;
+  margin: 4rem;
+  font-size: 2.5rem;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: white;
+  text-shadow: 0 0 .1rem rgb(113, 93, 121);
+
+}
+
+kbd {
+  display: block;
+  font-size: 3.5rem;
+}
+
+.sound {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+}
